@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="287dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="32dp"
+        android:text="Time:"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="164dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:text="Score: 0"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeText" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="413dp"
+        android:layout_height="517dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/sonic1"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:visibility="invisible"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/sonic" />
+
+        <ImageView
+            android:id="@+id/sonic2"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:visibility="invisible"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/sonic" />
+
+        <ImageView
+            android:id="@+id/sonic3"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:visibility="invisible"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/sonic" />
+
+        <ImageView
+            android:id="@+id/sonic4"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:visibility="invisible"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/sonic" />
+
+        <ImageView
+            android:id="@+id/sonic5"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:visibility="invisible"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/sonic" />
+
+        <ImageView
+            android:id="@+id/sonic6"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:visibility="invisible"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/sonic" />
+
+        <ImageView
+            android:id="@+id/sonic7"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:visibility="invisible"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/sonic" />
+
+        <ImageView
+            android:id="@+id/sonic8"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:visibility="invisible"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/sonic" />
+
+        <ImageView
+            android:id="@+id/sonic9"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:visibility="invisible"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/sonic" />
+
+        <ImageView
+            android:id="@+id/sonic10"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:visibility="invisible"
+            app:layout_column="0"
+            app:layout_row="3"
+            app:srcCompat="@drawable/sonic" />
+
+        <ImageView
+            android:id="@+id/sonic11"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:visibility="invisible"
+            app:layout_column="1"
+            app:layout_row="3"
+            app:srcCompat="@drawable/sonic" />
+
+        <ImageView
+            android:id="@+id/sonic12"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:visibility="invisible"
+            app:layout_column="2"
+            app:layout_row="3"
+            app:srcCompat="@drawable/sonic" />
+
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
